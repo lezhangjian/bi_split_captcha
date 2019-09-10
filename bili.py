@@ -27,8 +27,8 @@ class Bilibili():
         self.browser.get(url)
         user = self.browser.find_element(By.ID,'login-username')
         pwd = self.browser.find_element(By.ID,'login-passwd')
-        user.send_keys('17864232170')
-        pwd.send_keys('520lzj520')
+        user.send_keys('178642321**')
+        pwd.send_keys('*****')
 
     # 获取残缺的验证码图片和完整的验证码图片
     def get_captcha(self):
